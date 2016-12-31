@@ -1,0 +1,52 @@
+#hotelCheck{
+    background-color: #f8f6f6;
+}
+#list02 .col-75 p{
+    display: inline-block;
+    text-align: left;
+    padding: 3% 0 0 3%;
+}
+#list02 .col-75 .icon{
+    float: right;
+    padding-right: 10px;
+    padding-top: 3%;
+}
+#list02 .col-10 p{
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: -5px;
+    color: red;
+}
+#check-in p{
+    display: inline-block;
+    float: right;
+    margin-right: -10px;
+    margin-top: -10px;
+
+}
+#check-in span{
+    font-size: 14px;
+}
+#check-in span:nth-child(3),#check-in span:nth-child(6){
+    color:#968888;
+}
+
+#hotelName span,#price span{
+    color:#968888;
+}
+#list01{
+    border-bottom: 1px solid #eee;
+}
+#list01 .icon,#list02 .icon{
+    font-size: 20px;
+}
+#list02{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.check-btn{
+    padding: 0 10px ;
+}
+#list02 #left {
+    padding: 4% 5% 0 5%;
+}

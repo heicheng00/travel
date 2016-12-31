@@ -1,0 +1,195 @@
+#page3{
+    background-color: #f8f6f6;
+}
+#mine-list13 ion-item{
+    float: left;
+    width:33%;
+}
+#mine-list13 ion-item:last-child{
+    width:34%;
+}
+
+#mine-list12{
+    height: 500px;
+
+}
+#mine-list14 .ion-ios-arrow-right,#mine-list11 .ion-ios-arrow-right ,#mine-list-item64 .ion-ios-arrow-right {
+     font-size: 12px;
+ }
+#mine-list14 i:first-child,#mine-list11 i:first-child ,#mine-list-item64 i:first-child {
+    font-size: 16px;
+}
+#mine-list14 p,#mine-list11 p ,#mine-list-item64 p {
+    display: inline-block;
+    font-size: 14px;
+
+}
+#mine-list14 span,#mine-list11 span ,#mine-list-item64 span {
+    font-size: 12px;
+
+}
+
+#mine-list11 .list{
+    margin-top: 10px;
+    border:none;
+}
+
+.tabs i{
+
+}
+#mine-list13 img{
+    height:45%;
+    width:28%;
+    left:10px;
+}
+#mine-list13  h2,#mine-list13 p {
+       margin-left: -20px;
+}
+#mine-list13 p{
+   font-size: 12px;
+}
+#mine-list13 h2{
+    font-size: 14px;
+}
+#mine-list13 ion-item{
+    margin: 0;
+    border:none;
+}
+
+#mine-list13 .list{
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#mine-list-item65 .icon{
+    position: relative;
+    font-size: 20px;
+    padding-top:8px;
+
+}
+#mine-list12 p{
+    font-size: 12px;
+    border: 1px solid #B9A4A4;
+    color:#B9A4A4;
+    padding: 3px;
+}
+#mine-list12 h2{
+   padding-bottom: 5px;
+    color:#B9A4A4;
+}
+
+#mine-list12 .list{
+    background-image:  url(../images/mine/bg.jpg) ;
+    background-right: no-repeat;
+    background-position: left top;
+    padding-top: 20px;
+}
+#mine-list12 .item{
+    background-color: transparent;
+}
+#mine-list12 #mine-list-item65 {
+    background-color: #2a2525;
+    opacity: 0.7;
+}
+#mine-list-item69{
+    position: relative;
+ }
+#mine-list-item69:before{
+    content:'';
+    height: 32px;
+    width:1px;
+    background-color:#eeeeee ;
+    position: absolute;
+    right: 0px;
+    top:17px;
+}
+#mine-list-item69:after{
+    content:'';
+    height: 32px;
+    width:1px;
+    background-color:#eeeeee ;
+    position: absolute;
+    left: 0px;
+    top:17px;
+}
+#mine-list14 ion-item{
+    position: relative;
+}
+#mine-list14 ion-item:before{
+    content:'';
+    height: 1px;
+    width:95%;
+    background-color:#eee ;
+    position: absolute;
+    left: 14%;
+    bottom: 1px;
+}
+#mine-list14 #mine-list-item83:before{
+    content: '';
+    height: 1px;
+    width:95%;
+    background-color:transparent;
+    position: absolute;
+    left: 14%;
+    bottom: 1px;
+}
+#index-list10 img{
+    position: absolute;
+    top: 12px;
+    left: 85%;
+}
+#index-list-item13,#index-list-item14{
+    position: relative;
+}
+#index-list-item13:before,#index-list-item14:before{
+    content: "";
+    width:1px;
+    height: 95%;
+    background-color: #eeeeee;
+    position: absolute;
+    left:0px;
+    top:3%;
+}
+#index-list-item13:after , #index-list-item14:after{
+    content: "";
+    width:1px;
+    height: 95%;
+    background-color: #eeeeee;
+    position: absolute;
+    right:0px;
+    top:3%;
+}
+#index-list-item15,#index-list-item19{
+    position: relative;
+}
+#index-list-item15:before,#index-list-item19:before{
+    content: "";
+    width:1px;
+    height: 95%;
+    background-color: #eeeeee;
+    position: absolute;
+    right:0px;
+    top:3%;
+}
+#index-list10 h2,#index-list10 p{
+    margin-left: -20% ;
+}
+
+#mine-list14 i:first-child{
+    top:-3px;
+}
+
+/*去订单页的  部分样式*/
+.master:before{
+    content:'';
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: whitesmoke;
+    opacity: 0.5;
+    z-index: 1000;
+
+}
+

@@ -1,0 +1,71 @@
+<ion-view view-title="钟点房搜索" >
+
+    <ion-content>
+        <div class="list" id="list-01">
+            <div class="item item-icon-left item-icon-right"  ui-sref="tabs.index">
+                <i class="icon ion-ios-arrow-back"></i>
+                <p>钟点房搜索</p>
+                <i class="icon ion-ios-telephone-outline"></i>
+            </div>
+
+        </div>
+        <ion-slide-box auto-play="true" slide-interval="2000" does-continue="true"
+                       active-slide="activeIndex"
+                       pager-click="pagerClick(index) "
+                       on-slide-changed="onSlideChanged(index)">
+            <ion-slide>
+                <div class="carousel">
+                    <img  src="images/index/zdf/lb01.jpg" >
+                </div>
+
+            </ion-slide>
+            <ion-slide>
+                <div class="carousel">
+                    <img  src="images/index/zdf/lb02.jpg">
+                </div>
+
+            </ion-slide>
+            <ion-slide>
+                <div class="carousel">
+                    <img  src="images/index/zdf/lb03.jpg">
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="list" id="hourlyRoom-list02">
+            <div class="item  row">
+                <i class="icon ion-ios-pause-outline col col-10" id="left"></i>
+                <div class="col col-75" >
+                    <p>深圳</p>
+                    <span class="icon ion-ios-arrow-right"></span>
+                </div>
+                <div class="col col-10 " id="right" >
+                     <i class="icon ion-ios-location-outline " id="my-location "></i>
+                        <p> 我附近</p>
+
+                </div>
+
+            </div>
+            <div class="item item-icon-left item-icon-right" id="check-in">
+                <i class="icon ion-calendar"></i>
+                <span>06月07日</span>  <span>今天入住</span>
+                <i class="icon ion-ios-arrow-right"></i>
+            </div>
+            <div class="item item-icon-left item-icon-right" id="hotelName">
+                <i class="icon ion-ios-bookmarks-outline"></i>
+                <span>酒店名，地址等</span>
+                <i class="icon ion-ios-arrow-right"></i>
+            </div>
+        </div>
+        <div id="check-btn">
+            <button class="button button-assertive button-full icon ion-search">查询</button>
+        </div>
+
+
+        <div class="list" id="list-item-01">
+            <p>·现已开通钟点房的城市·</p>
+            <div class="item item-image" ng-repeat="city in cities">
+                 <img ng-src="{{city.img_url}}">
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

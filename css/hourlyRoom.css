@@ -1,0 +1,104 @@
+#list-01 {
+    margin-bottom: 0px;
+}
+#list-01 p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#list-item-01 .item{
+    padding: 10px 10px 0;
+
+}
+#list-item-01 p{
+    text-align: center;
+    position: relative;
+}
+#list-item-01 p:before{
+    content: "";
+    height: 1px;
+    width:28%;
+    background-color: #E0D8D8;;
+    position: absolute;
+    left: 3%;
+    top:50%;
+}
+#list-item-01 p:after{
+    content: "";
+    height: 1px;
+    width:28%;
+    background-color: #E0D8D8;;
+    position: absolute;
+    right: 3%;
+    top:50%;
+}
+#check-btn{
+    padding: 0 10% ;
+}
+#check-btn .button{
+    border-radius: 10px;
+}
+#check-btn .icon{
+    font-size: 20px;
+    font-weight: 300;
+}
+#hourlyRoom-list02 .col-75 p{
+    display: inline-block;
+    text-align: left;
+    padding: 3% 0 0 3%;
+}
+#hourlyRoom-list02 .col-75 .icon{
+    float: right;
+    padding-right: 10px;
+    padding-top: 3%;
+
+
+
+}
+#hourlyRoom-list02 .col-10 p{
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: -5px;
+    color: red;
+}
+#hourlyRoom-list02 #right{
+    color: red;
+}
+#hourlyRoom-list02 #left {
+    padding: 4% 5% 0 5%;
+    font-size: 20px;
+
+}
+#hourlyRoom-list02 .icon{
+    font-size: 20px;
+}
+#hourlyRoom-list02 span{
+    font-size: 14px;
+ }
+#check-in,#hotelName{
+    position: relative;
+}
+#check-in:before{
+    content: '';
+    height: 1px;
+    width: 95%;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 5%;
+    top:0;
+
+}
+#check-in:after,#hotelName:after{
+    content: '';
+    height: 1px;
+    width: 95%;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 5%;
+    bottom:1px;
+
+}
+#hotelName span{
+    color:#D2BEBE;
+}

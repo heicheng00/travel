@@ -1,0 +1,43 @@
+{
+	"index.html": {
+		"resources": [
+			"js/services.js",
+			"css/inlandHotel.css",
+			"css/cityType.css",
+			"css/tabs.css",
+			"templates/index/checkTime/checkTimeCtrl.js",
+			"css/index.css",
+			"js/routes.js",
+			"css/find.css",
+			"css/other.css",
+			"js/app.js",
+			"css/allOrder.css",
+			"lib/ionic/js/ionic.bundle.js",
+			"lib/fullcalendar/fullcalendar.css",
+			"lib/jquery/jquery.min.js",
+			"lib/fullcalendar/gcal.js",
+			"lib/ngCordova/ng-cordova.js",
+			"templates/server/overseas/overseasCtrl.js",
+			"css/server.css",
+			"lib/ngCordova/cordova.js",
+			"js/directives.js",
+			"js/mainTabCtrl.js",
+			"css/mine.css",
+			"lib/ionic/css/ionic.css",
+			"lib/moment/moment.js",
+			"lib/angular-ui-calendar/calendar.js",
+			"css/overseas.css",
+			"templates/mine/order/orderCtrl.js",
+			"lib/fullcalendar/fullcalendar.min.js",
+			"css/enter.css",
+			"css/hourlyRoom.css",
+			"js/controllers.js",
+			"templates/mine/order/other.html",
+			"templates/server.html",
+			"templates/enter.html",
+			"templates/server/overseas/overseas.html",
+			"css/all.css",
+			"lib/ngCordova/ng-cordova.min.js"
+		]
+	}
+}

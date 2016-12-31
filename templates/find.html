@@ -1,0 +1,35 @@
+<ion-view view-title="find"  class=" " id="page2" >
+   <ion-list id="page2-header">
+       <div id="type-top" ng-show="isShowTypeTop" ng-click="chooseCityType($event, tmpUrl)"><a href="#" class="button button-dark  button-outline"><i class="icon ion-navicon assertive"></i></a></div>
+       <div id="type-scroll" ng-show="!isShowTypeTop" ng-click="chooseCityType($event, tmpUrl)"><a href="#" class="button button-dark  button-outline icon-right">
+           度假酒店 <i class="icon ion-arrow-down-b assertive"></i> </a></div>
+   </ion-list>
+    <ion-content class=" has-footer " id="find-content" delegate-handle="mainContent" on-scroll="checkScroll()">
+
+        <ion-refresher pulling-text="努力加载中..." pulling-icon="icon ion-load-a"
+         on-refresh="loadMore()">
+
+        </ion-refresher>
+
+
+        <div class="list card "  ng-repeat="city in cities | filter: categoryFilter">
+
+            <div class="item item-image">
+                <img ng-src='{{city.img_url}}'>
+            </div>
+            <div class="item  " id="find-list-item46">
+                <h2>{{city.desc_h}}</h2>
+                  <p>{{city.desc_p}}</p>
+            </div>
+        </div>
+
+         <!--下拉刷新-->
+        <ion-infinite-scroll on-infinite="getCities()" icon="ion-loading-c"
+              <!--    ng-if="page<total"-->         immediate-check="false">
+
+        </ion-infinite-scroll>
+    </ion-content>
+
+
+
+</ion-view>

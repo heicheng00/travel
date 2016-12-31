@@ -1,0 +1,15 @@
+.tabs-top.tabs-striped .tab-item {
+  color: #666;
+  border-bottom: 2px solid transparent;
+}
+#slide-content-order {
+  margin-top: 75px;
+  height: 100%;
+  width: 100%;
+}
+#overseas-list01 .item {
+  border-bottom: 1px solid #c9c9c9;
+}
+#order_content_wrap .tabs {
+  top: 53px;
+}

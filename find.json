@@ -1,0 +1,14 @@
+{
+   "totalCities":1,
+   "currentCity":1,
+
+  "cities":[{"city":"敦煌","img_url":"images/find/dh.jpg","desc_h":"敦煌，去莫高窟，看天飞舞","desc_p":"·城市特色 ·度假酒店","type":"背包客栈"},
+    {"city":"阳朔","img_url":"images/find/bb.jpg","desc_h":"有一种生活叫慵懒 阳朔最美的客栈","desc_p":"·冬日暖阳 ·度假酒店 ·背包客栈","type":"度假酒店"},
+    {"city":"秦皇岛","img_url":"images/find/qhd.jpg","desc_h":"秦皇岛 缤纷夏日浪漫海","desc_p":"·度假酒店 ·来看海","type":"度假酒店"},
+    {"city":"云南乡村","img_url":"images/find/yn.jpg","desc_h":"假期早准备-云南酒店，这里风景独好","desc_p":"·亲近自然·度假酒店 ·轻奢","type":"轻奢"},
+    {"city":"三亚","img_url":"images/find/sy.jpg","desc_h":"青春520 从三亚最文艺客栈开始","desc_p":"·背包客栈","type":"背包客栈"},
+    {"city":"大连","img_url":"images/find/dl.jpg","desc_h":"走进大连一座魅力的海滨城市","desc_p":"·城市特色·来看海","type":"来看海"},
+    {"city":"古镇","img_url":"images/find/gz.jpg","desc_h":"9个最美古镇的9家趣味客栈","desc_p":"·背包客栈","type":"背包客栈"}
+
+  ]
+}

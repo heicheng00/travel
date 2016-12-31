@@ -1,0 +1,9 @@
+{
+  "cities":[{"img_url":"images/index/zdf/gz.jpg"},
+          {"img_url":"images/index/zdf/sh.jpg"},
+          {"img_url":"images/index/zdf/sz.jpg"},
+          {"img_url":"images/index/zdf/wh.jpg"},
+          {"img_url":"images/index/zdf/bj.jpg"},
+          {"img_url":"images/index/zdf/cs.jpg"}
+  ]
+}

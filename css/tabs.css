@@ -1,0 +1,31 @@
+.tab-item-active {
+    color: red;
+}
+
+#find-tab {
+    position: relative;
+}
+
+/*#type-top, #type-scroll {*/
+    /*position: fixed;*/
+    /*left: 10px;*/
+    /*top: 10px;*/
+    /*z-index: 1000;*/
+    /*padding: 2px;*/
+    /*border-radius: 5px;*/
+    /*background: lightyellow;*/
+/*}*/
+
+a{
+    text-decoration: none;
+}
+.callTel{
+    color:#1e1d1d;
+}
+.confirmCallTel{
+    color:whitesmoke;
+    display: block;
+    height: 100%;
+    width:100%;
+}
+

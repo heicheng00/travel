@@ -1,0 +1,52 @@
+<ion-view view-title="酒店查询" id="hotelCheck">
+    <!--<ion-header-bar><button class="ion-ios-telephone"></button></ion-header-bar>-->
+    <ion-content>
+        <div class="list" id="list01">
+            <div class="item item-icon-left item-icon-right" >
+                <i class="icon ion-ios-arrow-back assertive"  ui-sref="tabs.index"></i>
+                <p>酒店查询</p>
+                <i class="icon ion-ios-heart-outline assertive"></i>
+            </div>
+        </div>
+        <div class="list" id="list02">
+
+            <div class="item  row">
+                <i class="icon ion-ios-pause-outline col col-10" id="left"></i>
+                <div class="col col-75" >
+                    <p>深圳</p>
+                    <span class="icon ion-ios-arrow-right"></span>
+                </div>
+                <div class="col col-10 " id="right" >
+                    <i class="icon ion-ios-location-outline assertive " id="my-location "></i>
+                    <p> 我附近</p>
+                </div>
+
+            </div>
+
+            <div class="item item-icon-left item-icon-right" id="check-in">
+                <i class="icon ion-calendar"></i>
+                <span id="checkin">06月07日</span>  &nbsp;<span>今天&nbsp;入住</span><br>
+                <span id="checkout">06月08日</span>&nbsp;  <span>明天&nbsp;离店</span>
+                <p ><span >1</span>晚</p>
+                <i class="icon ion-ios-arrow-right"></i>
+            </div>
+
+            <div class="item item-icon-left item-icon-right" id="hotelName">
+                <i class="icon ion-ios-bookmarks-outline"></i>
+                <span>酒店名，地址等</span>
+
+                <i class="icon ion-ios-arrow-right"></i>
+            </div>
+            <div class="item item-icon-left item-icon-right" id="price">
+                <i class="icon ion-social-yen-outline"></i>
+                <span>不限星级价格</span>
+
+                <i class="icon ion-ios-arrow-right"></i>
+            </div>
+        </div>
+        <div class="check-btn">
+            <button class="button button-full button-assertive ">查询</button>
+        </div>
+
+    </ion-content>
+</ion-view>

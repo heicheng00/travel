@@ -1,0 +1,30 @@
+#overseas {
+  background-color: #f8f6f6;
+}
+#overseas #overseas-list01 .list:last-child {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+#overseas #overseas-list01 .item p {
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+#overseas #overseas-list02 ion-item {
+  position: relative;
+  color: #666;
+  font-size: 14px;
+}
+#overseas #overseas-list02 ion-item:before {
+  content: '';
+  height: 1px ;
+  width: 95%;
+  background: #eee;
+  position: absolute;
+  bottom: 1px;
+  left: 5%;
+}
+#overseas #overseas-list02 ion-item .icon {
+  font-size: 12px;
+}

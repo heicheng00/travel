@@ -1,0 +1,91 @@
+<ion-view view-title="mine" id="page3" class="scroll-content has-footer  " >
+    <ion-content  class=" ">
+
+            <ion-list id="mine-list12" class=" ">
+                <ion-item class="item-avatar item-icon-right  " id="mine-list-item64">
+                    <img src="images/mine/info.jpg">
+                    <h2>个人信息</h2>
+                    <p>参与龙萃计划</p>
+                    <i class="icon ion-ios-arrow-right"></i>
+                </ion-item>
+                <ion-item class="tabs tabs-icon-top tabs-dark" id="mine-list-item65">
+                    <a class="tab-item" ng-click="goOrderPage(0)" ng-class="{master: (clickId == 0)}" on-tap="onTap()">
+                        <i class="icon ion-document-text"></i>
+                        全部订单
+                    </a>
+                    <a class="tab-item" ng-click="goOrderPage(1)" ng-class="{master: (clickId == 1)}">
+                        <i class="icon ion-social-windows-outline"></i>
+                        待付款
+                    </a>
+                    <a class="tab-item" ng-click="goOrderPage(2)" ng-class="{master: (clickId == 2)}">
+                        <i class="icon ion-android-time"></i>
+                        未出行
+                    </a>
+                    <a class="tab-item" ng-click="goOrderPage(3)" ng-class="{master: (clickId == 3)}">
+                        <i class="icon ion-ios-pricetags-outline"></i>
+                        领取返现
+                    </a>
+                    <a class="tab-item" ng-click="goOrderPage(4)" ng-class="{master: (clickId == 4)}">
+                        <i class="icon ion-ios-close-outline"></i>
+                        取消订单
+                    </a>
+                </ion-item>
+            </ion-list>
+
+
+
+      <ion-list id="mine-list13" class=" ">
+                <ion-item class="item-avatar  " id="mine-list-item68">
+                    <img src="images/mine/tk.jpg">
+                    <h2>退款</h2>
+                    <p>退款/解冻</p>
+                </ion-item>
+
+
+            <ion-item class="item-avatar   " id="mine-list-item69">
+                <img src="images/mine/fp.jpg">
+                <h2>发票</h2>
+                <p>补开/明细</p>
+            </ion-item>
+            <ion-item class="item-avatar " id="mine-list-item70">
+                <img src="images/mine/qb.jpg">
+                <h2>钱包</h2>
+                <p>提现/红包...</p>
+            </ion-item>
+        </ion-list>
+
+        <ion-list id="mine-list14" class=" ">
+            <ion-item class="item-icon-left item-icon-right  " id="mine-list-item76">
+                <i class="icon ion-android-star-outline"></i><p>我的收藏</p>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right  " id="mine-list-item80">
+                <i class="icon ion-chatbox-working"></i><p>我的消息</p>
+                <span class="item-note">促销信息/订单...</span>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right  " id="mine-list-item81">
+                <i class="icon ion-compose"></i><p>酒店点评</p>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right  " id="mine-list-item82">
+                <i class="icon ion-ios-paper-outline"></i><p>常用信息</p>
+                <span class="item-note">地址/银行卡...</span>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right  " id="mine-list-item83">
+                <i class="icon ion-headphone"></i><p>客服中心</p>
+                <span class="item-note">投诉/意见反馈...</span>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+        </ion-list>
+        <ion-list id="mine-list11" class=" ">
+            <ion-item class="item-icon-left item-icon-right  " id="mine-list-item86">
+                <i class="icon ion-toggle-filled"></i><p>更多</p>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+
+
+</ion-view>

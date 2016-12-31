@@ -1,0 +1,26 @@
+/* line 1, cityType.less */
+#city-type-content {
+  height: 100%;
+  width: 100%;
+  background: rgba(44, 26, 26, 0.5);
+  font-size: 12px;
+}
+/* line 6, cityType.less */
+#city-type-content ul {
+  padding: 10% 1%;
+}
+/* line 8, cityType.less */
+#city-type-content ul li {
+  float: left;
+}
+/* line 10, cityType.less */
+#city-type-content ul li .button {
+  border-radius: 50%;
+  display: inline-block;
+  width: 100%;
+}
+/* line 22, cityType.less */
+#city-type-content ul .redBtn {
+  color: white;
+  background: red;
+}

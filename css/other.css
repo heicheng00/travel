@@ -1,0 +1,11 @@
+#other-content {
+  text-align: center;
+  margin-top: 60px;
+}
+#other-content p {
+  color: gainsboro;
+  font-size: 16px;
+}
+#other-content a {
+  font-size: 14px;
+}

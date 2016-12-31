@@ -1,0 +1,117 @@
+<ion-view view-title="index" id="page1" class=" " >
+    <ion-content  class="" id="index-content">
+        <!--<div style="margin: 0px; line-height: 250px; text-align: center; background-color: rgb(232, 235, 239);">-->
+            <!--<i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>-->
+        <!--</div>-->
+        <!--定位扫二维码-->
+        <!--<div id="scan" ng-click="BarcodeScanner()"><img src="images/index/scan.jpg" alt="扫一扫"></div>-->
+        <ion-slide-box auto-play="true" slide-interval="2000" does-continue="true"
+                       active-slide="activeIndex"
+              pager-click="pagerClick(index) "
+             on-slide-changed="onSlideChanged(index)">
+            <ion-slide>
+                <div class="carousel">
+                    <img  src="images/index/lb01.jpg" >
+                </div>
+
+            </ion-slide>
+            <ion-slide>
+                <div class="carousel">
+                    <img  src="images/index/lb02.jpg">
+                </div>
+
+            </ion-slide>
+            <ion-slide>
+                <div class="carousel">
+                    <img  src="images/index/lb03.jpg">
+                </div>
+
+            </ion-slide>
+        </ion-slide-box>
+
+        <ion-list id="index-list2">
+            <ion-item class="item item-avatar-left item-assertive" id="index-list31" ui-sref="inlandHotel">
+                <img src="images/index/gn.jpg">
+                <h2>国内酒店</h2>
+                <p>30万酒店任你选</p>
+
+            </ion-item>
+            <ion-item class="item item-avatar-left item-energized" id="index-list33">
+                <img src="images/index/gj.jpg">
+                <h2>国际酒店</h2>
+                <p>近200国家任选</p>
+
+            </ion-item>
+            <ion-item class="item item-avatar-left item-calm" id="index-list32">
+                <img src="images/index/dz.jpg">
+                <h2>短租日租</h2>
+                <p>常住更省</p>
+
+            </ion-item>
+            <ion-item class="item item-avatar-left item-positive" id="index-list34">
+                 <img src="images/index/tj.jpg">
+                <h2>今日特价</h2>
+                <p>精选酒店5折订</p>
+
+            </ion-item>
+
+        </ion-list>
+
+            <ion-list id="index-list6" class=" tabs-icon-top ">
+                <ion-item class="item tab-item  " id="index-list-item24" ui-sref="hourlyRoom">
+                    <i class="icon ion-android-home calm "></i>
+                    钟点房
+                </ion-item>
+
+                <ion-item class="item tab-item " id="index-list-item13">
+                    <i class="icon ion-android-plane positive"></i>
+                    机票
+                </ion-item>
+                <ion-item class="item tab-item  " id="index-list-item15">
+                    <i class="icon ion-android-train positive"></i>
+                    火车票
+                </ion-item>
+                <ion-item class="item tab-item " id="index-list-item17">
+                    <i class="icon ion-android-bus energized"></i>
+                    汽车票
+                </ion-item>
+<!--    两个list 合并为一个list
+            </ion-list>
+
+          <ion-list id="index-list7" class="tabs-icon-top  ">-->
+                <ion-item class="tab-item    " id="index-list-item18">
+                    <i class="icon ion-android-car calm"></i>用车</ion-item>
+                <ion-item class="tab-item  " id="index-list-item14">
+                    <i class="icon ion-bag positive" ></i>当地</ion-item>
+                <ion-item class="tab-item   " id="index-list-item19">
+                    <i class="icon ion-social-yen calm "></i>汇率</ion-item>
+                <ion-item class="tab-item  " id="index-list-item20">
+                    <i class="icon ion-chatbox calm "></i>意见反馈</ion-item>
+
+            </ion-list>
+
+
+            <ion-list id="index-list10" class=" ">
+                <ion-item class="item-avatar item-avatar-right  balanced" id="index-list-item36">
+                    <img src="images/index/index01.jpg">
+                    <h2 class="balanced" >
+                        端午大促 粽游南北 </h2>
+                        <p>端午酒店3折起</p>
+
+
+
+                </ion-item>
+                <ion-item class="item-avatar dark item-avatar-right " id="index-list-item38">
+                    <img src="images/index/index02.jpg">
+                    <h2>百时快捷酒店八折起 </h2>
+                        <p>初夏去旅行</p>
+
+                </ion-item>
+
+            </ion-list>
+
+
+    </ion-content>
+
+
+</ion-view>

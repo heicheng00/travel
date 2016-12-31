@@ -1,0 +1,106 @@
+#page4{
+    background-color: #f8f6f6;
+}
+#title{
+    text-align: left;
+    padding-left: 17%;
+    font-size: 16px;
+    font-weight: bold;
+}
+#server-list-item55{
+    width:40%;
+    float: left;
+
+}
+#server-list-item{
+    width:60%;
+    float: left;
+}
+#server-list10 h2,#server-list-item55 h2{
+    padding-top: 10px;
+    font-size: 14px;
+}
+#server-list-item h2, #server-list-item .icon,#server-list10 .icon{
+    font-size: 12px;
+
+}
+
+#server-list-item55{
+    border:none;
+}
+#server-list9 .list{
+    border:none;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+#server-list9 ion-item{
+    background-color: transparent;
+}
+#server-list-item .list{
+    padding: 0;
+    margin-right: -1px;
+    margin-top: 0;
+    position: relative;
+}
+
+#server-list-item .list:before{
+    content:'';
+    height:95%;
+    width:1px;
+    background-color:#eeeeee ;
+    position: absolute;
+    left: 0;
+    top: 3%;
+}
+
+#server-list-item #suggest{
+    position: relative;
+}
+#server-list-item #suggest:before{
+    content:'';
+    height:1px;
+    width:95%;
+    background-color:#eeeeee ;
+    position: absolute;
+    left: 7%;
+    bottom:1px;
+}
+#server-list-item #suggest:after{
+    content:'';
+    height:1px;
+    width:95%;
+    background-color:#eeeeee ;
+    position: absolute;
+    left:7%;
+    top:1px;
+}
+#server-list10 ion-item{
+    position: relative;
+}
+#server-list10 ion-item:before{
+    content:'';
+    height: 1px;
+    width:95%;
+    background-color:#c9c9c9 ;
+    position: absolute;
+    left: 5%;
+    top: 1px;
+}
+#server-list-item57{
+    margin-top:1px;
+}
+#index-list6 .list{
+    overflow: hidden;
+    position: relative;
+}
+
+#index-list6 .list:before{
+    content: '';
+    height: 1px;
+    width:95%;
+    background-color: #D2C6C6;
+    left: 3%;
+    top:51%;
+    position: absolute;
+}

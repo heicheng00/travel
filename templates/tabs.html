@@ -1,0 +1,26 @@
+<ion-tabs  class="tabs-light tabs-icon-top">
+    <ion-tab title="首页" ui-sref="tabs.index" icon-on="ion-home assertive" icon-off="ion-home">
+   <!--     <ion-nav-bar>
+        <i class="ion-ios-telephone"></i>
+    </ion-nav-bar>-->
+        <ion-nav-view name="tab-index" ></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="发现" ui-sref="tabs.find" icon-on="ion-ios-eye   assertive" icon-off="  ion-ios-eye-outline" id="find-tab">
+        <ion-nav-view name="tab-find" ></ion-nav-view>
+        <!--<div id="type-top" ng-show="isShowTypeTop" ng-click="chooseCityType($event, tmpUrl)"><a href="#" class="button button-dark  button-outline"><i class="icon ion-navicon assertive"></i></a></div>-->
+        <!--<div id="type-scroll" ng-show="!isShowTypeTop" ng-click="chooseCityType($event, tmpUrl)"><a href="#" class="button button-dark  button-outline icon-right">-->
+            <!--度假酒店 <i class="icon ion-arrow-down-b assertive"></i> </a></div>-->
+    </ion-tab>
+
+    <ion-tab title="客服" ui-sref="tabs.server" icon-on="ion-ios-telephone   assertive" icon-off="ion-ios-telephone-outline">
+        <!--直接采用视图名-->
+        <ion-nav-view name="tab-server" ></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="我的" ui-sref="tabs.mine" icon-on="ion-ios-person  assertive" icon-off=" ion-ios-person-outline">
+        <ion-nav-view name="tab-mine" ></ion-nav-view>
+    </ion-tab>
+</ion-tabs>
+
+

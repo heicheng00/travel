@@ -1,0 +1,19 @@
+#allOrder-list {
+  margin-top: 10px;
+}
+#allOrder-list .item {
+  position: relative;
+  font-size: 14px;
+}
+#allOrder-list .item:before {
+  content: '';
+  height: 1px;
+  width: 95%;
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  background: #eee;
+}
+#allOrder-list .item .icon {
+  font-size: 12px;
+}

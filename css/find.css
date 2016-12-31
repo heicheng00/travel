@@ -1,0 +1,16 @@
+.card{
+    margin:0;
+}
+#page2-header{
+    position: relative;
+}
+#type-top, #type-scroll {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    float: left;
+    z-index: 100000;
+    padding: 2px;
+    border-radius: 5px;
+    background: lightyellow;
+}

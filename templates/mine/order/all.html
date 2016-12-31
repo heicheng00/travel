@@ -1,0 +1,144 @@
+<ion-view >
+    <ion-list class="list" id="overseas-list01">
+        <div class="item item-icon-left item-icon-right">
+            <i class="icon ion-ios-arrow-back assertive" ui-sref="tabs.mine"></i>
+            <p>我的订单</p>
+
+        </div>
+    </ion-list>
+    <!--<div class="tabs-striped tabs-light tabs-top ">-->
+    <!--<div class="tabs">-->
+    <!--<ion-nav-view class="tab-item active" ui-sref="all.allOrder">-->
+    <!--全部-->
+    <!--&lt;!&ndash;<ion-nav-view name="all-allOrder"></ion-nav-view>&ndash;&gt;-->
+    <!--</ion-nav-view>-->
+    <!--<ion-nav-view class="tab-item " ui-sref="all.unpay">-->
+    <!--待付款-->
+    <!--&lt;!&ndash;<ion-nav-view name="all-unpay"></ion-nav-view>&ndash;&gt;-->
+    <!--</ion-nav-view>-->
+    <!--<div class="tab-item " ui-sref="all.ungo">-->
+    <!--未出行-->
+    <!--&lt;!&ndash;<ion-nav-view name="all-ungo"></ion-nav-view>&ndash;&gt;-->
+    <!--</div>-->
+    <!--<div class="tab-item " ui-sref="all.saleOff">-->
+    <!--领取返现-->
+    <!--&lt;!&ndash;<ion-nav-view name="all-saleOff"></ion-nav-view>&ndash;&gt;-->
+    <!--</div>-->
+    <!--<div class="tab-item " ui-sref="all.cancel">-->
+    <!--可取消-->
+    <!--&lt;!&ndash;<ion-nav-view name="all-cancel"></ion-nav-view>&ndash;&gt;-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!-- ion-slide-box 可否实现左右滑动  不行使用手势事件 -->
+    <!--<ion-tabs  class="tabs-top">-->
+    <!--&lt;!&ndash;<ion-slide-box does-continue="false" auto-play="false" show-pager="false" on-slide-changed="onSlideChange(index)" active-slide="activeIndex">&ndash;&gt;-->
+    <!--&lt;!&ndash;<ion-slide>&ndash;&gt;-->
+    <!--<ion-tab title="全部" ng-click="goAllOrder()" id="tabs-all">-->
+    <!--&lt;!&ndash;<ion-nav-view name="all-allOrder" nav-transition="none"></ion-nav-view>&ndash;&gt;-->
+    <!--<ion-nav-view name="all-allOrder" ></ion-nav-view>-->
+    <!--</ion-tab>-->
+    <!--&lt;!&ndash;</ion-slide>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ion-slide>&ndash;&gt;-->
+    <!--<ion-tab title="待付款" ng-click="goUnpay()">-->
+    <!--&lt;!&ndash;<ion-nav-view name="other-order" nav-transition="none"></ion-nav-view>&ndash;&gt;-->
+    <!--<ion-nav-view name="other-order" ></ion-nav-view>-->
+    <!--</ion-tab>-->
+    <!--&lt;!&ndash;</ion-slide>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ion-slide>&ndash;&gt;-->
+    <!--<ion-tab title="未出行" ng-click="goUngo()">-->
+    <!--&lt;!&ndash;<ion-nav-view name="other-order" nav-transition="none"></ion-nav-view>&ndash;&gt;-->
+    <!--<ion-nav-view name="other-order"></ion-nav-view>-->
+    <!--</ion-tab>-->
+    <!--&lt;!&ndash;</ion-slide>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ion-slide>&ndash;&gt;-->
+    <!--<ion-tab title="领取返现" ng-click="goSaleOff()">-->
+    <!--&lt;!&ndash;<ion-nav-view name="other-order" nav-transition="none"></ion-nav-view>&ndash;&gt;-->
+    <!--<ion-nav-view name="other-order" ></ion-nav-view>-->
+    <!--</ion-tab>-->
+    <!--&lt;!&ndash;</ion-slide>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ion-slide>&ndash;&gt;-->
+    <!--<ion-tab title="可取消" ng-click="goCancel()">-->
+    <!--&lt;!&ndash;<ion-nav-view name="other-order" nav-transition="none"></ion-nav-view>&ndash;&gt;-->
+    <!--<ion-nav-view name="other-order" ></ion-nav-view>-->
+    <!--</ion-tab>-->
+    <!--&lt;!&ndash;</ion-slide>&ndash;&gt;-->
+    <!--&lt;!&ndash;</ion-slide-box>&ndash;&gt;-->
+    <!--</ion-tabs>-->
+
+    <!--原始的方式-->
+    <div class="tabs-top tabs-striped tabs-background-light tabs-color-assertive" id="order_content_wrap">
+        <div class="tabs">
+            <div class="tab-item" ng-class="{active:activeIndex == 0}" ng-click="changePage(0)">
+                全部
+            </div>
+            <div class="tab-item " ng-class="{active:activeIndex == 1}" ng-click="changePage(1) ">
+                待付款
+            </div>
+            <div class="tab-item " ng-class="{active:activeIndex == 2}" ng-click="changePage(2)">
+                未出行
+            </div>
+            <div class="tab-item " ng-class="{active:activeIndex == 3}" ng-click="changePage(3)">
+                领取返现
+            </div>
+            <div class="tab-item " ng-class="{active:activeIndex == 4}" ng-click="changePage(4)">
+                可取消
+            </div>
+
+        </div>
+    </div>
+    <!--可以滑动  相应的页面-->
+    <!--on-swipe-left="onSwipeLeft()" on-swipe-right="onSwipeRight()"-->
+    <ion-slide-box  id="slide-content-order" auto-play="false" show-pager="false" active-slide="activeIndex" on-slide-changed="onSlideChanged(index)">
+        <ion-slide >
+            <div ng-include="allOrderUrl" class="nest-content"></div>
+            <!--<div><img src="images/find/bb.jpg" alt=""></div>-->
+
+                <!--<div>-->
+                    <!--<ion-list id="allOrder-list">-->
+                        <!--<ion-item class="item item-icon-right">-->
+                            <!--<p>国内酒店订单</p>-->
+                            <!--<i class="icon ion-ios-arrow-right"></i>-->
+                        <!--</ion-item>-->
+                        <!--<ion-item class="item item-icon-right">-->
+                            <!--<p>国际酒店订单</p>-->
+                            <!--<i class="icon ion-ios-arrow-right"></i>-->
+                        <!--</ion-item>-->
+                        <!--<ion-item class="item item-icon-right">-->
+                            <!--<p>团购订单</p>-->
+                            <!--<i class="icon ion-ios-arrow-right"></i>-->
+                        <!--</ion-item> <ion-item class="item item-icon-right">-->
+                        <!--<p>国内机票订单</p>-->
+                        <!--<i class="icon ion-ios-arrow-right"></i>-->
+                    <!--</ion-item>-->
+                        <!--<ion-item class="item item-icon-right">-->
+                            <!--<p>火车票订单</p>-->
+                            <!--<i class="icon ion-ios-arrow-right"></i>-->
+                        <!--</ion-item>-->
+                        <!--<ion-item class="item item-icon-right">-->
+                            <!--<p>汽车票订单</p>-->
+                            <!--<i class="icon ion-ios-arrow-right"></i>-->
+                        <!--</ion-item>-->
+
+
+                    <!--</ion-list>-->
+                <!--</div>-->
+
+        </ion-slide>
+        <ion-slide >
+            <!--不能直接套用地址 -->
+            <div ng-include="otherUrl" class="nest-content"></div>
+        </ion-slide>
+        <ion-slide >
+            <div ng-include="otherUrl" class="nest-content"></div>
+        </ion-slide>
+        <ion-slide >
+            <div ng-include="otherUrl" class="nest-content"></div>
+        </ion-slide>
+        <ion-slide >
+            <div ng-include="otherUrl" class="nest-content"></div>
+        </ion-slide>
+    </ion-slide-box>
+
+</ion-view>

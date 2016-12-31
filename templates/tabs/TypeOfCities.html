@@ -1,0 +1,23 @@
+<!--<ion-popover-view id="city-type-content">-->
+    <!--<ion-content >-->
+        <!--<ul>-->
+            <!--<li class=" col col-33" ng-repeat="type in typeUrlData.data">-->
+                    <!--<button ng-click="chooseType()" ng-class="{redBtn:isClickBtn}" ng-bind="type.type" class="button button-light">-->
+                    <!--</button>-->
+            <!--</li>-->
+
+        <!--</ul>-->
+    <!--</ion-content>-->
+<!--</ion-popover-view>-->
+
+<ion-modal-view id="city-type-content">
+    <ion-content >
+        <ul>
+            <li class=" col col-33" ng-repeat="type in typeUrlData.data"  ng-click="chooseType(type.type, $index)">
+                <button  ng-class="{'redBtn':(isClickBtn == $index)}" ng-bind="type.type" class="button button-light">
+                </button>
+            </li>
+
+        </ul>
+    </ion-content>
+</ion-modal-view>

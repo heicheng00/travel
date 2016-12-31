@@ -1,0 +1,11 @@
+<ion-view>
+    <ion-list class="list" id="overseas-list01" ui-sref="inlandHotel">
+        <div class="item item-icon-left item-icon-right" >
+            <i class="icon ion-ios-arrow-back assertive"  ui-sref="tabs.server"></i>
+            <p>住<span ng-bind="planTime"></span>晚</p>
+        </div>
+    </ion-list>
+
+        <div id="calendar" ng-model="eventSources" calendar="Calendar" ui-calendar="uiConfig.calendar"></div>
+
+</ion-view>
